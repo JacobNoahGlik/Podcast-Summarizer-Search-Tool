@@ -87,4 +87,31 @@ Built to solve a real-world problem: podcasts are long, and time is short. This 
 ---
 
 ## 📁 Project Structure (planned)
+```yaml
+podcast-summarizer/
+│
+├── backend/
+│ ├── app.py
+│ ├── whisper_transcriber.py
+│ ├── summarizer.py
+│ └── search_index.py
+│
+├── frontend/ (optional: Streamlit or React)
+│ └── ...
+│
+├── examples/
+│ ├── sample_episode.mp3
+│ └── outputs/
+│ ├── transcript.txt
+│ ├── summary.json
+│ └── chapters.txt
+│
+├── README.md
+└── requirements.txt
+```
 
+## ⚙️ Requirements
+
+```bash
+pip install -r requirements.txt
+```
